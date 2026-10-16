@@ -56,4 +56,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           prerelease: true
-          files: vlabeler-${{ github.ref_name }}-amd64.deb
+          files: vlabeler-${{ github.ref_name }}-arm64.deb
