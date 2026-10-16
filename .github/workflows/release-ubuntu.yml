@@ -50,7 +50,7 @@ jobs:
           echo $VERSION
           PREFIX=$(echo $VERSION | cut -d'-' -f 1)
           echo $PREFIX
-          mv ./build/compose/binaries/main/deb/vlabeler_$PREFIX-1_amd64.deb ./vlabeler-$VERSION-amd64.deb
+          mv ./build/compose/binaries/main/deb/vlabeler_$PREFIX-1_arm64.deb ./vlabeler-$VERSION-arm64.deb
 
       - name: Release
         uses: softprops/action-gh-release@v1
